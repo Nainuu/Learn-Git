@@ -17,3 +17,7 @@ This is to learn about the git
 15. to check :git remote -v
 16. for setting upstream :git push --set-upstream origin main
 17. now you can use just : git push
+
+BRACHING 
+1.  when adding new features in the repo then use branching
+2.  

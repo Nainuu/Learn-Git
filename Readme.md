@@ -21,14 +21,17 @@ This is to learn about the git
 18. PROBLEM WHILE PUSHING TO REPO FROM LOCAL PC
 19. First Do this ...
 
-git fetch origin master
-git merge  master
+git fetch origin main
+git merge  main
 
 Then, do this ...
 
 git fetch origin master:tmp
+
 git rebase tmp
-git push origin HEAD:master
+
+git push origin main
+
 git branch -D tmp
 
 Now everything works well.

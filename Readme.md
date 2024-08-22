@@ -20,4 +20,10 @@ This is to learn about the git
 
 BRACHING 
 1.  when adding new features in the repo then use branching
-2.  
+2.  To the branches.. first type : git branch
+3.  main shows that it is in the main branch (* shows that you are in that br)
+4.  to check out :q
+5.  to make branch (Name should be discriptive):git checkout -b NAME
+6.  now you can check in which branch you are by just :git branch
+7.  to switch between branches : git chekout NAME
+8.  Checking it now in the feature 

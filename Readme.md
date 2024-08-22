@@ -18,6 +18,21 @@ This is to learn about the git
 16. for setting upstream :git push --set-upstream origin main
 17. now you can use just : git push
 
+18. PROBLEM WHILE PUSHING TO REPO FROM LOCAL PC
+19. First Do this ...
+
+git fetch origin master
+git merge  master
+
+Then, do this ...
+
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
+Now everything works well.
+
 BRACHING 
 1.  when adding new features in the repo then use branching
 2.  To the branches.. first type : git branch
